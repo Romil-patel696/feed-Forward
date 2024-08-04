@@ -1,0 +1,77 @@
+   .home-page {
+    font-family: Arial, sans-serif;
+  }
+  
+  
+  
+  /* Features Section */
+  .features, .how-it-works, .testimonials, .call-to-action {
+    text-align: center;
+    padding: 50px 20px;
+    color: #333;
+  }
+  
+  .features .feature-list, .testimonials .testimonial-list, .how-it-works .steps {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+  }
+  
+  .feature, .step, .testimonial {
+    flex: 1 1 200px;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+  }
+  
+  .feature img, .step img {
+
+    width: 200px;
+    height: 200px;
+  }
+  
+  /* Call to Action Section */
+  .call-to-action {
+    background-image: url('../assets/BT1-JOIN-US-HEADER.jpg');
+    background-size:contain;
+    background-position: center;
+    color: #ffffff;
+    font-weight: 400;
+    padding: 50px 20px;
+    text-align: center;
+    position: relative;
+  }
+  
+  .call-to-action::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+  }
+  
+  .call-to-action button {
+    background-color: #0056b3;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1.2em;
+    position: relative;
+    z-index: 1;
+  }
+  
+  .call-to-action button:hover {
+    background-color: #004494;
+  }
+  
+  .call-to-action h2, .call-to-action p {
+    position: relative;
+    z-index: 1;
+  }
+  
