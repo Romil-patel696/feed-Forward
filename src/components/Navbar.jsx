@@ -1,19 +1,21 @@
 import { Link, NavLink } from 'react-router-dom';
-import { useNavigate } from 'react-router-dom';
-import useAuth from '../hooks/useAuth';
+// import { useNavigate } from 'react-router-dom';
 import './Navbar.css';
 
 const Navbar = () => {
-  const { user, logOut } = useAuth();
-  const navigate = useNavigate();
+  // const { user, logOut } = useAuth();
+  // const navigate = useNavigate();
+  const user=false;
 
   async function handleLogout() {
-    try {
-      await logOut();
-      navigate("/signin");
-    } catch {
-      console.log("can't logout");
-    }
+    // try {
+    //   await logOut();
+    //   navigate("/signin");
+    // } catch {
+    //   console.log("can't logout");
+    // }
+
+    console.log("user login")
   }
 
   return (

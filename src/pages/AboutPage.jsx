@@ -53,7 +53,7 @@ function About() {
                       alt="customer1"
                     />
                     <div className="testimonial-content">
-                      <h3 className="font-weight-bolder">John Doe</h3>
+                      <h3 className="font-weight-bolder">Romil Patel</h3>
                       <p>
                         "FeedForward has helped our community reduce food
                         waste and feed the hungry. The platform is easy to use
@@ -62,7 +62,7 @@ function About() {
                     </div>
                   </div>
                 </div>
-                <div className="carousel-item text-center">
+                {/* <div className="carousel-item text-center">
                   <div className="testimonial">
                     <img
                       src={userPic}
@@ -78,7 +78,7 @@ function About() {
                       </p>
                     </div>
                   </div>
-                </div>
+                </div> */}
                 {/* Add more testimonials here */}
               </div>
               <div className="carousel-controls">
@@ -106,9 +106,9 @@ function About() {
               alt="Director"
             />
             <div className="card-body">
-              <h5 className="card-title">Director</h5>
+              <h5 className="card-title">Team Member</h5>
               <div className="card-text">
-                CEO <span className="float-right">5 years</span>
+                Romil Patel 
               </div>
               <h6 className="mt-5">CONNECT</h6>
               <div className="d-flex justify-content-around">
@@ -130,7 +130,7 @@ function About() {
             <div className="card-body">
               <h5 className="card-title">Team Member</h5>
               <div className="card-text">
-                Manager <span className="float-right">5 years</span>
+              Krishna Panjwani
               </div>
               <h6 className="mt-5">CONNECT</h6>
               <div className="d-flex justify-content-around">
@@ -152,7 +152,7 @@ function About() {
             <div className="card-body">
               <h5 className="card-title">Team Member</h5>
               <div className="card-text">
-                Manager <span className="float-right">8 years</span>
+              Peeyush Gupta 
               </div>
               <h6 className="mt-5">CONNECT</h6>
               <div className="d-flex justify-content-around">
